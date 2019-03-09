@@ -1,0 +1,40 @@
+Modelo:
+
+	Traslacion
+		X+	D
+		X-	A
+		Y+	PAGE_UP
+		Y-	PAGE_DOWN
+		Z+	W
+		Z-	S
+	
+	Rotación
+		X+	DOWN
+		X-	UP
+		Y+	RIGHT
+		Y-	LEFT
+		Z+	E
+		Z-	Q
+	
+		
+Brazo Izquierdo:	SENTIDO CONTRARIO:	RIGHT_SHIFT 
+	
+	Hombro		J	
+	Codo		K
+	Muñeca		L	
+	Pulgar		Y
+	Indice		U
+	Medio		I
+	Anular		O
+	Meñique		P
+
+Brazo Derecho:	SENTIDO CONTRARIO:	RIGHT_SHIFT 
+	
+	Hombro		H	
+	Codo		G
+	Muñeca		F	
+	Pulgar		B
+	Indice		V
+	Medio		C
+	Anular		X
+	Meñique		Z
