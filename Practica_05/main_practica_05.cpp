@@ -34,7 +34,8 @@ float	movX = 0.0f,
 movY = 0.0f,
 movZ = -5.0f,
 rotX = 0.0f,
-rotY = 0.0f;
+rotY = 0.0f,
+rotZ = 0.0f;
 //Brazos
 float
 angHom = 0.0f,
@@ -775,10 +776,10 @@ void my_input(GLFWwindow *window)
 		rotY += 0.2f;
 
 	if (glfwGetKey(window, GLFW_KEY_Q) == GLFW_PRESS)
-		rotY -= 0.2f;
+		rotZ -= 0.2f;
 
 	if (glfwGetKey(window, GLFW_KEY_E) == GLFW_PRESS)
-		rotY += 0.2f;
+		rotZ += 0.2f;
 /*-----------------------Movimiento del brazo Izquierdo---------------------*/
 
 	//Hombro
